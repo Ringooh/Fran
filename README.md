@@ -9,20 +9,20 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ringooh/fran">
-    <img src="https://img.shields.io/github/package-json/v/ringooh/fran/master?color=pink&label=Current%20Version" alt="App Version" />
+  <a href="https://github.com/Ringooh/Fran">
+    <img src="https://img.shields.io/github/package-json/v/ringooh/Fran/master?color=pink&label=Current%20Version" alt="App Version" />
   </a>
   <a href="https://nodejs.org/dist/latest-v16.x/">
     <img src="https://img.shields.io/static/v1?label=node&message=>=16.9.0&color=success&logo=Node.js&logoColor=white" alt="Node Requirements">
   </a>
-  <a href="https://github.com/Ringooh/fran">
-    <img src="https://img.shields.io/github/workflow/status/ringooh/fran/Node.js%20CI" alt="build">
+  <a href="https://github.com/Ringooh/Fran">
+    <img src="https://img.shields.io/github/workflow/status/ringooh/Fran/Node.js%20CI" alt="build">
   </a>
   <a href="https://github.com/Ringooh/fran/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ringooh/fran?color=pink&label=License" alt="LICENSE">
+    <img src="https://img.shields.io/github/license/ringooh/Fran?color=pink&label=License" alt="LICENSE">
   </a>
-  <a href="https://david-dm.org/ringooh/fran">
-    <img src="https://david-dm.org/ringooh/fran/status.svg" alt="LICENSE">
+  <a href="https://david-dm.org/ringooh/Fran">
+    <img src="https://david-dm.org/ringooh/Fran/status.svg" alt="LICENSE">
   </a>
   <a href="https://ringooh.github.io/hutao-san/support.html">
     <img src="https://img.shields.io/discord/311602230547578880?color=%237289DA&label=&logo=discord&logoColor=white" alt="Online">

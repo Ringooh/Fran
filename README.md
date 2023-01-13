@@ -68,10 +68,6 @@ Hu Tao can:
 -  Provide Airing Information automagically, implement user experience system, as well as economy system. </font> <br />
 -  Acquire totally random fun facts from various sources Hu Tao has access to. </font> <br />
 
-
-### Invite
-You may invite Hu Tao through [Invite link ](https://ringooh.github.io/hutao-san/invite.html).
-
 ### Support
 If you have questions regarding the bot and it's use, please do join our support server at [Support link](https://ringooh.github.io/hutao-san/support.html).
 
@@ -88,4 +84,4 @@ Hu Tao is Licensed under MIT.
 
 
 ### Disclaimer
-*Hu Tao Bot developer is not, in any way, affiliated with Hu Tao's game character, nor the production team that brought the game together, and does not, in any way, benefit financially from the sales the series produces.*
+*Fran's developer is not, in any way, affiliated with Fran's creator, nor the production team that brought the anime together, and is not, in any way, benefit financially from the sales the series produces.*

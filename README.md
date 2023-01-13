@@ -15,19 +15,19 @@ Tensei Shitara Ken Deshita
 
 <p align="center">
   <a href="https://github.com/Ringooh/fran">
-    <img src="https://img.shields.io/github/package-json/v/ringooh/hutao/master?color=pink&label=Current%20Version" alt="App Version" />
+    <img src="https://img.shields.io/github/package-json/v/ringooh/fran/master?color=pink&label=Current%20Version" alt="App Version" />
   </a>
-  <a href="https://nodejs.org/dist/latest-v14.x/">
-    <img src="https://img.shields.io/static/v1?label=node&message=>=14.0.0&color=success&logo=Node.js&logoColor=white" alt="Node Requirements">
+  <a href="https://nodejs.org/dist/latest-v16.x/">
+    <img src="https://img.shields.io/static/v1?label=node&message=>=16.9.0&color=success&logo=Node.js&logoColor=white" alt="Node Requirements">
   </a>
   <a href="https://github.com/Ringooh/fran">
-    <img src="https://img.shields.io/github/workflow/status/ringooh/hutao/Node.js%20CI" alt="build">
+    <img src="https://img.shields.io/github/workflow/status/ringooh/fran/Node.js%20CI" alt="build">
   </a>
-  <a href="https://github.com/Ringooh/hutao/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ringooh/hutao?color=pink&label=License" alt="LICENSE">
+  <a href="https://github.com/Ringooh/fran/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ringooh/fran?color=pink&label=License" alt="LICENSE">
   </a>
-  <a href="https://david-dm.org/ringooh/hutao">
-    <img src="https://david-dm.org/ringooh/hutao/status.svg" alt="LICENSE">
+  <a href="https://david-dm.org/ringooh/fran">
+    <img src="https://david-dm.org/ringooh/fran/status.svg" alt="LICENSE">
   </a>
   <a href="https://ringooh.github.io/hutao-san/support.html">
     <img src="https://img.shields.io/discord/311602230547578880?color=%237289DA&label=&logo=discord&logoColor=white" alt="Online">
@@ -56,9 +56,6 @@ npm install
 npm start
 ```
 
-### Support
-If you have questions regarding the bot and it's use, please do join our support server at [Support link](https://ringooh.github.io/hutao-san/support.html).
-
 ### Contribute
 Contribution includes, but is not limited to making a Pull Request.
 
@@ -68,7 +65,7 @@ If you love this work and wish to contribute in another manner, please do join o
 
 
 ### License
-Hu Tao is Licensed under MIT.
+Fran is Licensed under MIT.
 
 
 ### Disclaimer

@@ -7,7 +7,7 @@
     "start": "node src/index.js"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=19"
   },
   "author": "Shouko#4908",
   "license": "ISC",

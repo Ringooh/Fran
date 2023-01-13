@@ -3,7 +3,7 @@ Reincarnated as a sword
 Tensei Shitara Ken Deshita
 
 
-<h1 align="center"> <img src='https://cdn.discordapp.com/emojis/818570188587794442.png?v=1' height='50'> Hu Tao</h1>
+<h1 align="center"> <img src='https://cdn.discordapp.com/emojis/818570188587794442.png?v=1' height='50'> Fran</h1>
 
 <p align="center"> A Discord Bot Based Around Game, and Hu Tao </p>
 

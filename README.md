@@ -12,8 +12,8 @@
   <a href="https://github.com/Ringooh/Fran">
     <img src="https://img.shields.io/github/package-json/v/ringooh/Fran/master?color=pink&label=Current%20Version" alt="App Version" />
   </a>
-  <a href="https://nodejs.org/dist/latest-v16.x/">
-    <img src="https://img.shields.io/static/v1?label=node&message=>=16.9.0&color=success&logo=Node.js&logoColor=white" alt="Node Requirements">
+  <a href="https://nodejs.org/dist/latest-v19.x/">
+    <img src="https://img.shields.io/static/v1?label=node&message=>=19.4.0&color=success&logo=Node.js&logoColor=white" alt="Node Requirements">
   </a>
   <a href="https://github.com/Ringooh/Fran">
     <img src="https://img.shields.io/github/workflow/status/ringooh/Fran/Node.js%20CI" alt="build">

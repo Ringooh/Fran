@@ -41,8 +41,6 @@ Tensei Shitara Ken Deshita
 
 <br />
 
-Check the docs on [Hu Tao site](https://ringooh.github.io/hutao-san)
-
 ### Host
 Create Env file:
 
@@ -57,16 +55,6 @@ npm install
 
 npm start
 ```
-
-### Why should you invite Hu Tao?
-Hu Tao is a simple yet powerful Discord Bot that aims to give discord users an enhanced "Discord Experience". Hu Tao provides a variety of fun and informative commands that you can use with your friends.
-
-Hu Tao can:
-- Spice up chat environment with the use of roleplay/action commands such as pat, hug, slap, and more! </font> <br />
--  Search through the internet for information resources through various functions such as anime information lookup (series, characters, and even seiyuus!), games (via steam), or even time on some cities. </font> <br />
--  Ease the work of moderators by managing the server through various single commands. </font> <br />
--  Provide Airing Information automagically, implement user experience system, as well as economy system. </font> <br />
--  Acquire totally random fun facts from various sources Hu Tao has access to. </font> <br />
 
 ### Support
 If you have questions regarding the bot and it's use, please do join our support server at [Support link](https://ringooh.github.io/hutao-san/support.html).

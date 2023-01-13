@@ -3,7 +3,7 @@ Reincarnated as a sword
 Tensei Shitara Ken Deshita
 
 
-<h1 align="center"> <img src='[https://cdn.discordapp.com/emojis/818570188587794442.png?v=1](https://cdn.discordapp.com/attachments/818569131237834787/1063541749328392232/eb516bb323a8affa2af7c02e40083aa7.jpg)' height='50'> Fran</h1>
+<h1 align="center"> <img src='https://cdn.discordapp.com/attachments/818569131237834787/1063541749328392232/eb516bb323a8affa2af7c02e40083aa7.jpg' height='50'> Fran</h1>
 
 <p align="center"> A Discord Bot Based Around Anime, and Fran </p>
 

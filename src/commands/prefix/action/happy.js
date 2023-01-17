@@ -18,7 +18,7 @@ module.exports = {
       .setDescription(`${message.author} is happy.`)
       .setColor('BLACK')
       .setImage(client.images.happy())
-      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Fran`)
     );
   }
 };

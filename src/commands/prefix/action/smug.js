@@ -18,7 +18,7 @@ module.exports = {
       .setDescription(`${message.author} smugs.`)
       .setColor('BLACK')
       .setImage(client.images.smug())
-      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Fran`)
     );
   }
 };

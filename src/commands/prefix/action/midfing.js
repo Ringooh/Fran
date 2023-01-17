@@ -21,7 +21,7 @@ module.exports = {
 
     const embed = new MessageEmbed()
     .setColor('BLACK')
-    .setFooter(`Action Commands | \©️${new Date().getFullYear()} Hu Tao`);
+    .setFooter(`Action Commands | \©️${new Date().getFullYear()} Fran`);
 
     if (!message.mentions.members.size){
 

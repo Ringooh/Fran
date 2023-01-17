@@ -28,7 +28,7 @@ module.exports = {
     const embed = new MessageEmbed()
     .setColor('BLACK')
     .setImage(url)
-    .setFooter(`Action Commands | \©️${new Date().getFullYear()} Hu Tao`);
+    .setFooter(`Action Commands | \©️${new Date().getFullYear()} Fran`);
 
     if ((message.guild && !message.mentions.members.size) || !args[0]){
 

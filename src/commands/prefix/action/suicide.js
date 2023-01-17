@@ -19,7 +19,7 @@ module.exports = {
       .setDescription(`${message.author} только что покончил жизнь самоубийством. Ужасный.`)
       .setColor('BLACK')
       .setImage(client.images.suicide())
-      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`Action Commands | \©️${new Date().getFullYear()} Fran`)
     );
   }
 };

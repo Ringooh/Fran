@@ -37,7 +37,7 @@ module.exports = {
       .setColor(color)
       .setImage(avatar)
       .setDescription(desc)
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
     );
   }
 };

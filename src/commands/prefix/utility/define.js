@@ -34,7 +34,7 @@ module.exports = {
 
     if (!args.length) {
       return message.channel.send(new MessageEmbed()
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
       .setAuthor(`Urban Dictionary`,`https://files.catbox.moe/kkkxw3.png`,`https://www.urbandictionary.com/`)
       .setTitle(title).setColor('#e86222').setURL('https://ao-buta.com/tv/?innerlink')
       .addFields([
@@ -67,7 +67,7 @@ module.exports = {
     const prof_value = language.get({ '$in': 'COMMANDS', id: 'DEFINE_PROFANEB', parameters });
     const embed      = new MessageEmbed()
                       .setURL(hit.urbanURL).setColor('#e86222').setTitle(language.get({ '$in': 'COMMANDS', id: 'DEFINE_ETITLE' , parameters }))
-                      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+                      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
                       .setAuthor('Urban Dictionary', 'https://files.catbox.moe/kkkxw3.png', 'https://www.urbandictionary.com/')
                       .addFields([
                         { name: DICT.DEFINITION, value: STRING.truncate(definition || 'N/A', 1000) },

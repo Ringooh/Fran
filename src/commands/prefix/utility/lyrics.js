@@ -35,7 +35,7 @@ module.exports = {
       return message.reply(language.get({ '$in': 'COMMANDS', id: 'LYRICS_NOTFOUND', parameters }));
     };
 
-    const embed_footer = `${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`;
+    const embed_footer = `${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`;
     const embedify     = (response) => {
       return new MessageEmbed()
         .setThumbnail(response.thumbnail.genius)

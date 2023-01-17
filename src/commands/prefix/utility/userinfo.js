@@ -42,7 +42,7 @@ module.exports = {
      .setAuthor(`Discord ${DICT.USER} ${member.user.tag}`, null, 'https://discord.com/')
      .setDescription(ARRAY.join([owner ? 'Server Owner' : '', ...flags].filter(Boolean)))
      .setThumbnail(member.user.displayAvatarURL({format: 'png', dynamic: true}))
-     .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+     .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
      .addFields([
        { name: DICT.USERNAME                    , value: `**${member.user.username}**#${member.user.discriminator}`                                               , inline: true  },
        { name: DICT.TYPE                        , value: member.user.bot ? DICT.BOT : DICT.USER                                                                          , inline: true  },

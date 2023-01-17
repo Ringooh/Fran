@@ -64,7 +64,7 @@ module.exports = {
       .setImage(image)
       .setColor(0x101D2F)
       .setThumbnail(thumbnail)
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
       .addFields([
         { name: DICT.PRICE    , inline: true , value: price     },
         { name: DICT.PLATFORMS, inline: true , value: platforms },

@@ -25,7 +25,7 @@ module.exports = {
 
     const { heapUsed, heapTotal } = process.memoryUsage();
 
-    const parameters = new language.Parameter({ '%TITLE%': 'Ху Тао любит шутить над людьми и ненавидит сидеть сложа руки и ничего не делать, так как она хочет жить своей жизнью в полной мере','%SHARD%': message.client.shard.ids[0], '%SERVER%': message.client.guilds.cache.size, '%MUSIC%': '0'});
+    const parameters = new language.Parameter({ '%TITLE%': 'Fran is the deuteragonist of Reincarnated as a Sword and a famed powerful adventurer known as Black Lightning Princess','%SHARD%': message.client.shard.ids[0], '%SERVER%': message.client.guilds.cache.size, '%MUSIC%': '0'});
     const { NUMBER } = message.client.services.UTIL;
     const DICT       = language.getDictionary([ 'day(s)', 'hour(s)', 'minute(s)', 'messages', 'sent', 'received', 'cached', 'users', 'total', 'here', 'commands', 'times accessed', 'most used', 'memory', 'used', 'shard', 'system', 'unavailable', 'uptime' ]);
 
@@ -64,7 +64,7 @@ module.exports = {
       .setColor(0xe620a4)
       .setURL('https://ringooh.github.io/hutao-san/')
       .setTitle(`${message.client.user.username} v${_version}`)
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'STATS_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'STATS_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
       .addFields([
         { name: FIELD                                   , inline: false, value: '━━━━━━━━━━━━━━━━━━━━━━━━━━━━'                                                                                                                      },
         { name: `📧\u2000${DICT.MESSAGES.toUpperCase()}`, inline: true, value: `${DICT.SENT }:\u2000\u2000**${msgssent}**\n${DICT.RECEIVED         }:\u2000\u2000**${msgsrcvd}**\n${DICT.CACHED      }:\u2000\u2000**${msgscach}**` },

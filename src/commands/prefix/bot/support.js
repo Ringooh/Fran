@@ -2,7 +2,7 @@ const { Permissions: { FLAGS }, MessageEmbed } = require('discord.js');
 
 module.exports = {
   name             : 'support',
-  description      : 'Displays various ways to show support for Hu Tao.',
+  description      : 'Displays various ways to show support for Fran.',
   aliases          : [ 'status', 'botstatus' ],
   cooldown         : null,
   clientPermissions: [ FLAGS.EMBED_LINKS ],
@@ -45,7 +45,7 @@ module.exports = {
         { name: field_name_4, value: field_value_4 },
         { name: field_name_5, value: field_value_5 },
       ])
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
     );
   }
 }

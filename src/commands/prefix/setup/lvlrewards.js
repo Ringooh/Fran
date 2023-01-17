@@ -33,7 +33,7 @@ module.exports = {
       .setAuthor     ( message.guild.name )
       .setDescription( language.get({ '$in': 'COMMANDS', id: 'LVLREWARDS_VIEW', parameters }) )
       .setThumbnail  ( message.guild.iconURL({ format:'png', dynamic: true }) )
-      .setFooter     ( `${language.get({ '$in': 'COMMANDS', id: 'LVLREWARDS_E_FO' })}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao` );
+      .setFooter     ( `${language.get({ '$in': 'COMMANDS', id: 'LVLREWARDS_E_FO' })}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran` );
       return message.channel.send(strmessage, embed);
     };
 

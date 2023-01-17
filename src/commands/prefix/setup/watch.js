@@ -153,7 +153,7 @@ module.exports = {
       .setThumbnail(fetchedEntries[0].coverImage.large)
       .setColor(fetchedEntries[0].coverImage.color || 0xe620a4)
       .setAuthor(language.get({'$in': 'COMMANDS', id: 'WATCH_EMBED_ATH' }))
-      .setFooter(`${DICT.WATCH}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${DICT.WATCH}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       );
     };
 
@@ -171,7 +171,7 @@ module.exports = {
     .setDescription(entries.join('\n'))
     .setThumbnail(fetchedEntries.map(x => x.coverImage.large).filter(Boolean)[0])
     .setTitle(language.get({ '$in': 'COMMANDS', id: 'WATCH_EMBED_TTL', parameters }))
-    .setFooter(`${DICT.WATCH}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+    .setFooter(`${DICT.WATCH}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
     .addFields([
       {
         name : DICT.TIPS,

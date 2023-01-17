@@ -46,7 +46,7 @@ module.exports = {
     const embed = new MessageEmbed()
     .setDescription(member.warnings.map(x => `\`[${x.id}]\` - ${x.reason} - by <@!${x.executor}> (${moment(Number(x.id)).locale(message.author.profile.data.language || 'en').calendar()})`).join('\n') || language.get({ '$in':'COMMANDS', id: 'WARNINGS_NOWARN' }))
     .setAuthor(language.get({ '$in': 'COMMANDS', id: 'WARNINGS_LIST', parameters: parameters.assign({ '%USER%': member.user.tag }) }), null, member.user.displayAvatarURL({ format: 'png', dynamic: true })).setColor('ORANGE').addField('\u200b',language.get({'$in': 'COMMANDS', id: 'WARNINGS_TIME', parameters: { '%LOCALE%': `+${new Date().getTimezoneOffset()/-60}:00 UTC`}}))
-    .setFooter(`Warning Records\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+    .setFooter(`Warning Records\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
 
     return message.channel.send(embed);
   }

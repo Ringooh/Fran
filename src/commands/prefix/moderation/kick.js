@@ -74,7 +74,7 @@ module.exports = {
     const memlang  = message.client.services.LANGUAGE.getCommand('ban', langcode);
     await member.send(memlang.get({ '$in': 'COMMANDS', id: 'KICK_SENDTOMEM', parameters }));
 
-    return member.kick({ reason: `Hu Tao Kick Command: ${message.author.tag}: ${reason}` })
+    return member.kick({ reason: `Fran Kick Command: ${message.author.tag}: ${reason}` })
     .then(()    => message.channel.send(language.get({ '$in': 'COMMANDS', id: 'KICK_SUCCESS', parameters })))
     .catch(err  => message.channel.send(language.get({ '$in': 'COMMANDS', id: 'KICK_FAILED',  parameters: parameters.assign({ '%ERROR%': err.message }) })))
     .finally(() => !message.deleted ? message.delete() : null);

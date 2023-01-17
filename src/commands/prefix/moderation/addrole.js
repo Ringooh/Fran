@@ -37,7 +37,7 @@ module.exports = {
     const missingRoles = roles.filter(role => !member.roles.cache.has(role.id));
     const rolesfrmembr = missingRoles.filter(role => role.position < message.member.roles.highest.position || message.member.id == message.guild.owner.id);
     const rolesToAdd   = rolesfrmembr.filter(role => role.position < message.guild.me.roles.highest.position);
-    const reason       = args.filter(x => !x.match(/\d{17,19}/)).join(' ') || 'Command addrole from Hu Tao invoked by ' + message.author.tag;
+    const reason       = args.filter(x => !x.match(/\d{17,19}/)).join(' ') || 'Command addrole from Fran invoked by ' + message.author.tag;
 
     if (!roles.size){         // No mentioned roles / Role ID(s)
       return message.reply(language.get({ '$in': 'COMMANDS', id: 'ADDROLE_NOROLES', parameters }));

@@ -39,7 +39,7 @@ module.exports = {
       return new MessageEmbed()
       .setColor(0xe620a4)
       .setTitle(title)
-      .setFooter(`${DICT.INVENTORY}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${DICT.INVENTORY}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .addFields(...chunk.sort((A,B) => A.id - B.id ).map(d => {
         const item = market.find(x => x.id == d.id);
         return { name: `\`[${item.id}]\` x${d.amount} ${item.name}`, inline: true, value: `${DICT.TYPE}: *${getDict(item.type)}*\n${DICT['SELLING PRICE']}: *${Math.floor(item.price * 0.7)}*\n${DICT.USE}: \`${message.client.prefix}use ${item.id}\`\n${DICT.SELL}: \`${message.client.prefix}sell ${item.id} [${DICT.AMOUNT}]\``}

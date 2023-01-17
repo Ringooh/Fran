@@ -33,7 +33,7 @@ module.exports = {
       .setColor(0xe620a4)
       .setAuthor(language.get({ '$in': 'COMMANDS', id: 'BAL_VIEW', parameters }))
       .setThumbnail(message.author.displayAvatarURL({dynamic: 'true'}))
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'BAL_EMBED_FOOT'})} | \©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'BAL_EMBED_FOOT'})} | \©️${new Date().getFullYear()} Fran`)
       .setDescription(
         `${language.get({ '$in': 'COMMANDS', id: 'BAL_EMBED_DESC', parameters: parameters.assign({
           '%EMOJI%'          : '💰',

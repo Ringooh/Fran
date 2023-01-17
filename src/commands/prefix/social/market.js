@@ -33,8 +33,8 @@ module.exports = {
       return new MessageEmbed()
       .setColor(0xe620a4)
       .setDescription(description)
-      .setTitle(DICT['HU TAO\'S MARKET'])
-      .setFooter(`${DICT.MARKET}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setTitle(DICT['Fran\'S MARKET'])
+      .setFooter(`${DICT.MARKET}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .addFields(...chunk.map(item => { return { name: `\`[${item.id}]\` ${item.name}`, inline: true, value: `${item.description}\n${DICT.TYPE}: *${item.type}*\n${DICT.PRICE}: *${item.price}*\n${DICT['CHECK PREVIEW']}: \`${message.client.prefix}previewitem ${item.id}\`\n${DICT.PURCHASE}: \`${message.client.prefix}buy ${item.id} [${DICT.AMOUNT}]\`` }}));
     }), message, {
       previousbtn        : '767062237722050561',

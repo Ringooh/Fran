@@ -31,7 +31,7 @@ module.exports = {
         return message.reply(language.get({ '$in': 'COMMANDS', id: 'BAN_IS_SV_OWNER', parameters }));
     };
 
-    return message.guild.members.ban(user,  { reason: `Hu Tao Hackban Command: ${message.author.tag}: ${reason}`})
+    return message.guild.members.ban(user,  { reason: `Fran Hackban Command: ${message.author.tag}: ${reason}`})
     .then(_user => message.channel.send(language.get({ '$in': 'COMMANDS', id: 'BAN_SUCCESS', parameters: parameters.assign({ '%MEMBER%': _user.user?.tag || _user.tag || user })})))
     .catch(err  => message.channel.send(language.get({ '$in': 'COMMANDS', id: 'BAN_FAILED',  parameters: parameters.assign({ '%MEMBER%': user, '%ERROR%': err.message }) })))
     .finally(() => !message.deleted ? message.delete() : null);

@@ -58,7 +58,7 @@ module.exports = {
           .setColor('RED')
           .setTitle(book.title.pretty)
           .setURL(`https://nhentai.net/g/${id}`)
-          .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+          .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
           .setImage(`https://i.nhentai.net/galleries/${book.media}/${page.id}.${page.type.extension}`)
         }), message, {
           previousbtn        : '767062237722050561',
@@ -80,7 +80,7 @@ module.exports = {
       .setURL(`https://nhentai.net/g/${id}`)
       .setDescription(`**${book.title.english}**\n*${book.title.japanese}*`)
       .setThumbnail(api.getImageURL(book.cover))
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .addFields([
         { name: DICT.TAGS    , inline: false, value: ARRAY.join(tags)                          },
         { name: DICT.UPLOADED, inline: true , value: `${date} (*${elapsed}*)`, inline: true    },

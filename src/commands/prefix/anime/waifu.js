@@ -28,7 +28,7 @@ module.exports = {
     .setAuthor(STRING.truncate([ waifu.names.en, waifu.names.jp, waifu.names.alt ].filter(Boolean).join('\n'), 200), waifu.avatar || null)
     .setDescription([ waifu.from.name, waifu.from.type].filter(Boolean).map(x => `*${x}*`).join('\n'))
     .setImage(waifu.images[image])
-    .setFooter(`❣️${maths} ${DICT.LIKEABILITY}\u2000|\u2000${DICT.WAIFU}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`);
+    .setFooter(`❣️${maths} ${DICT.LIKEABILITY}\u2000|\u2000${DICT.WAIFU}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`);
 
     return message.channel.send(embed).then(async m => {
       await m.react('💖');

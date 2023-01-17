@@ -39,7 +39,7 @@ module.exports = {
 
     return message.channel.send(
       new MessageEmbed()
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .setThumbnail('https://thumbs.gfycat.com/ReliableSkeletalCanvasback-size_restricted.gif')
       .setTitle(language.get({ '$in': 'COMMANDS', id: 'ANIFACTS_TITLE' }))
       .setDescription(response.fact)

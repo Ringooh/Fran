@@ -46,7 +46,7 @@ module.exports = {
 
     return message.channel.send(
       new MessageEmbed()
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'CHARACTER_EFOOT'})}\u2000|\u2000${message.client.user.username}\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'CHARACTER_EFOOT'})}\u2000|\u2000${message.client.user.username}\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
       .setDescription(STRING.truncate(res.about.replace(/\\n/g,''),500,`... [${DICT['READ MORE']}](${res.url})`))
       .setAuthor(`${res.name} ${res.name_kanji ? `• ${res.name_kanji}` : ''}`, null, res.url)
       .setThumbnail(res.image_url)

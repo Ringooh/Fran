@@ -50,7 +50,7 @@ module.exports = {
         .setThumbnail(media[0].coverImage.large)
         .setTitle(Object.values(media[0].title).filter(Boolean)[0])
         .setDescription(altTitles + '\n\n' + description + '\n\n' + studios)
-        .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+        .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       );
     } else {
       const [ now     , next     , later     ] = media.filter(x => x.nextAiringEpisode).sort((A,B) => A.nextAiringEpisode.timeUntilAiring - B.nextAiringEpisode.timeUntilAiring );
@@ -65,7 +65,7 @@ module.exports = {
         .setColor(now.coverImage.color)
         .setThumbnail(now.coverImage.large)
         .setTitle(DICT.AIRING)
-        .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+        .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
         .setDescription(              now_t  + '\n' + now_at   + now_stu   + '\n' + language.get({ '$in': 'COMMANDS', id: 'NEXTAIRDATE_DES', parameters: parameters.assign({ '%EPISODE%': now_ep  , '%TIME%': now_time   })}) + '\n\u200b')
         .addFields([
           { name: DICT.NEXT , value: next_t  + '\n' + next_at  + next_stu  + '\n' + language.get({ '$in': 'COMMANDS', id: 'NEXTAIRDATE_DES', parameters: parameters.assign({ '%EPISODE%': next_ep , '%TIME%': next_time  })}) + '\n\u200b'},

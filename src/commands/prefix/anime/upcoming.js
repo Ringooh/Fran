@@ -43,7 +43,7 @@ module.exports = {
       .setColor(0xe620a4)
       .setAuthor(header)
       .setDescription(entry.join('\n\n'))
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
     ), message, {
       previousbtn        : '767062237722050561',
       nextbtn            : '767062244034084865',

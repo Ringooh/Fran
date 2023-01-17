@@ -50,7 +50,7 @@ module.exports = {
       .setImage(entry.poster_url)
       .setThumbnail(entry.cover_url)
       .setAuthor('hanime.tv', 'https://i.imgur.com/fl2V0QV.png','https://hanime.tv/')
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .setDescription(`[**${entry.brand}**](https://hanime.tv/browse/brands/${entry.brand.toLowerCase().replace(/ +/gi, '\-')})\n\n${entry.tags.sort().map(x => `[\`${x.toUpperCase()}\`](https://hanime.tv/browse/tags/${encodeURI(x)})`).join(' ')}`)
       .addFields([
         { name: DICT.RELEASED              , value: moment(new Date(entry.released_at * 1000)).locale(message.author.profile?.data.language || 'en-us').format('dddd, do MMMM YYYY'), inline: true  },

@@ -48,7 +48,7 @@ module.exports = {
       .setColor(data.Media.coverImage.color || 0xe620a4)
       .setDescription(data.Media.studios.nodes?.map(x => `[${x.name}](${x.url})`).join('\u2000|\u2000'))
       .setAuthor(`${Object.values(data.Media.title).filter(Boolean)[0]}\u2000|\u2000${message.client.anischedule.info.mediaFormat[data.Media.format]}`, null, data.Media.siteUrl)
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'MANGARANDOM_FOO' })}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'MANGARANDOM_FOO' })}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
       .addFields([
         { name: DICT['OTHER TITLES']        , inline: false, value: Object.entries(data.Media.title).filter(([k,v]) => !!v && k!=='userPreferred').map(([k,v]) => `•\u2000**${DICT[k.toUpperCase()]}**:\u2000${v}`)                                                                                      },
         { name: DICT.GENRES                 , inline: false, value: ARRAY.join(data.Media.genres.map(x => `[${x}](https://myanimelist.net/manga/genre/${message.client.services.MAL.genres[x.toLowerCase()]})`)) || '\u200b'                                                                             },

@@ -60,7 +60,7 @@ module.exports = {
     .setURL(data.url)
     .setColor(isHentai ? 'RED' : 0xe620a4)
     .setThumbnail(data.picture || null)
-    .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'ANIME_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+    .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'ANIME_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
     .setTitle(STRING.truncate(data.englishTitle || data.title, 200))
     .setDescription([
       [

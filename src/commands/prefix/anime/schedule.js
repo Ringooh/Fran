@@ -44,7 +44,7 @@ module.exports = {
       .setURL(entry.url)
       .setThumbnail(entry.image_url)
       .setDescription(score + genres + '\n\n' + synopsis + '\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .addFields([
         { name: DICT.TYPE     , value: entry.type                  || DICT.UNKNOWN                                 , inline: true },
         { name: DICT.STARTED  , value: moment(entry.started).locale(locale).format('Do MMMM YYYY')                , inline: true },

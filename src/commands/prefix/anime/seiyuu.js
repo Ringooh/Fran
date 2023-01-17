@@ -51,7 +51,7 @@ module.exports = {
       .setDescription(flag + '\n' + desc)
       .setThumbnail(data.Staff.image.large)
       .setAuthor(Object.values(data.Staff.name).filter(Boolean).join('\u2000•\u2000'), null, data.Staff.siteUrl)
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .addFields([ { name: voiced, value: chars  }, { name: staff,  value: staffs } ])
     );
   }

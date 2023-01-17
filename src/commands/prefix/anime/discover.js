@@ -73,7 +73,7 @@ module.exports = {
       .setThumbnail(entry.coverImage.large)
       .setColor(entry.coverImage.color || 0xe620a4)
       .setDescription(entry.studios.nodes.slice(0,1).map( x => `[${x.name}](${x.siteUrl})`).join('') || '')
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
       .setAuthor(`${genre}\u2000|\u2000${STRING.truncate(Object.values(entry.title).filter(Boolean)[0])}\u2000|\u2000${message.client.anischedule.info.mediaFormat[entry.format]}`)
       .addFields([
         { name: DICT['OTHER TITLES']                                              , inline: false, value: Object.entries(entry.title).filter(([k,v]) => !!v ).map(([k,v]) => `•\u2000**${DICT[k.toUpperCase()]}**:\u2000${v}`)                                                                                                  },
@@ -90,7 +90,7 @@ module.exports = {
     .setTitle(language.get({ '$in': 'COMMANDS', id: 'DISCOVER_TITLE', parameters }))
     .setThumbnail(message.author.displayAvatarURL({ format: 'png', dynamic: true }))
     .setDescription(language.get({ '$in': 'COMMANDS', id: 'DISCOVER_DESC', parameters }))
-    .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+    .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
     .addFields([
       { name: '\u200b', value: Object.keys(message.author.anidiscovery[category.toLowerCase()].genres).map(g => `\\🟢 ${g}`).join('\n') },
       { name: message.author.anidiscovery[category.toLowerCase()].viewcount > 1 ? viewed : '\u200b', value: '\u200b' },

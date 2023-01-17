@@ -36,7 +36,7 @@ module.exports = {
     };
 
     const embed = new MessageEmbed().setTitle(`${message.author.tag}'s Suggestion`).setColor('YELLOW').setDescription(args.join(' '))
-    .setFooter(`Suggestion\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+    .setFooter(`Suggestion\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
     .setThumbnail(message.author.displayAvatarURL({ format: 'png', dynamic: true })).addField('Status', 'Under Review', true);
 
     return channel.send(embed).then(async suggestion => {

@@ -63,7 +63,7 @@ module.exports = {
       .setDescription(d.join('\n'))
       .setTitle(language.get({ '$in': 'COMMANDS', id: 'WATCHING_ETITLE', parameters }))
       .setColor(0xe620a4)
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
       .addField(language.getDictionary(['tips']).TIPS, language.get({ '$in': 'COMMANDS', id: 'WATCHING_TIPS', parameters }));
     });
     if (descriptions.length === 1){

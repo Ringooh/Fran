@@ -19,7 +19,7 @@ module.exports = {
   run              : async (message, language) => message.channel.send(
 
     new MessageEmbed()
-    .setFooter(`${language.get({'$in': 'COMMANDS', id: 'MAI_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`).setColor(0xe620a4)
+    .setFooter(`${language.get({'$in': 'COMMANDS', id: 'MAI_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`).setColor(0xe620a4)
     .setColor(0xe620a4)
     .setImage(message.client.images.mai())
   )

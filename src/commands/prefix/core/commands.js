@@ -33,7 +33,7 @@ module.exports = {
     const desc   = language.get({ '$in': 'COMMANDS', id: 'COMMANDS_EDESC', parameters });
     const footer = language.get({ '$in': 'COMMANDS', id: 'COMMANDS_EFOOTR', parameters });
     const embed  = new MessageEmbed().setTitle(title).setDescription(desc).addFields(fields.sort((A,B) => B.value.length - A.value.length))
-    .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`).setColor(0xe620a4)
+    .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`).setColor(0xe620a4)
     return message.channel.send(embed);
   }
 };

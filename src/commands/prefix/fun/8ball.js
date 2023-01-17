@@ -20,7 +20,7 @@ module.exports = {
   requiresDatabase : false,
   rankcommand      : false,
   parameters       : [ 'Question answerable by Yes/No' ],
-  examples         : [ '8ball is hu tao a good bot?', '🎱 is FMA worth of it\'s top spot?' ],
+  examples         : [ '8ball is Fran a good bot?', '🎱 is FMA worth of it\'s top spot?' ],
   run              : async (message, language, args) => {
 
     const parameters = new language.Parameter({ '%AUTHOR%': message.author.tag });

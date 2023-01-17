@@ -36,7 +36,7 @@ module.exports = {
     };
     return message.channel.send(
       new MessageEmbed().setColor(0xe620a4).setDescription(data.fact).setThumbnail('https://i.imgur.com/QUF4VQX.gif')
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'PANDAFACT_EFTR'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'PANDAFACT_EFTR'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
    );
   }
 };

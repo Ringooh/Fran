@@ -31,7 +31,7 @@ module.exports = {
     };
     return message.channel.send(
       new MessageEmbed().setColor(0xe620a4).setTitle(data.data[0].fact)
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'CATFACT_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'CATFACT_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
    );
   }
 };

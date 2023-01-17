@@ -36,7 +36,7 @@ module.exports = {
     };
     return message.channel.send(
       new MessageEmbed().setColor(0xe620a4).setDescription(data.fact).setThumbnail('https://i.imgur.com/arkxS3f.gif')
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'BIRDFACT_EFOOTR'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'BIRDFACT_EFOOTR'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
    );
   }
 };

@@ -43,7 +43,7 @@ module.exports = {
     return message.channel.send(
      new MessageEmbed()
      .setColor(0xe620a4)
-     .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+     .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
      .setAuthor(horoscope[sign.toLowerCase()] + ' ' + sign.toUpperCase())
      .setDescription(result.horoscope.replace('(c) Kelli Fox, The Astrologer, http://new.theastrologer.com', ''))
      .addFields([

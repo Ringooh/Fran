@@ -28,7 +28,7 @@ module.exports = {
       new MessageEmbed()
       .setColor('GREY')
       .setDescription(args.length ? desc_withargs : desc_woutargs)
-      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${footer}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000©️${new Date().getFullYear()} Fran`)
     );
 
     await message.delete().catch(() => null);

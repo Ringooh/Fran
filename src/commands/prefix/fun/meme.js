@@ -33,7 +33,7 @@ module.exports = {
     parameters.assign({ '%CATEGORY%' : data.category });
     return message.channel.send(
       new MessageEmbed().setColor(0xe620a4).setImage(data.url).setAuthor(data.title, null, data.postLink)
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'MEME_EFOOTER'})}:${data.subreddit}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'MEME_EFOOTER'})}:${data.subreddit}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
    );
   }
 };

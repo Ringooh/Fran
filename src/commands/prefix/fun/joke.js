@@ -34,7 +34,7 @@ module.exports = {
     const title = language.get({ '$in': 'COMMANDS', id: 'JOKE_EMBEDTITLE', parameters });
     return message.channel.send(
       new MessageEmbed().setColor(0xe620a4).setTitle(title).setThumbnail('https://i.imgur.com/KOZUjcc.gif').setDescription(data.type === 'twopart' ? `${data.setup}\n\n||${data.delivery}||` : data.joke)
-      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'JOKE_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Hu Tao`)
+      .setFooter(`${language.get({ '$in': 'COMMANDS', id: 'JOKE_EFOOTER'})}\u2000|\u2000${message.client.user.username} Bot\u2000|\u2000\©️${new Date().getFullYear()} Fran`)
    );
   }
 };

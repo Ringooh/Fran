@@ -1,4 +1,4 @@
-const { devs, testServer } = require('../../../config.json');
+require('dotenv').config();
 const getLocalCommands = require('../../util/getLocalCommands');
 
 module.exports = async (client, interaction) => {
@@ -14,7 +14,7 @@ module.exports = async (client, interaction) => {
     if (!commandObject) return;
 
     if (commandObject.devOnly) {
-      if (!devs.includes(interaction.member.id)) {
+      if (!process.env.OWNER_ID.includes(interaction.member.id)) {
         interaction.reply({
           content: 'Only developers are allowed to run this command.',
           ephemeral: true,
@@ -24,7 +24,7 @@ module.exports = async (client, interaction) => {
     }
 
     if (commandObject.testOnly) {
-      if (!(interaction.guild.id === testServer)) {
+      if (!(interaction.guild.id === process.env.GUILD_ID)) {
         interaction.reply({
           content: 'This command cannot be ran here.',
           ephemeral: true,
@@ -59,7 +59,7 @@ module.exports = async (client, interaction) => {
       }
     }
 
-    await commandObject.callback(client, interaction);
+    await commandObject.run(client, interaction);
   } catch (error) {
     console.log(`There was an error running this command: ${error}`);
   }

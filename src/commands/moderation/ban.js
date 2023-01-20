@@ -25,7 +25,7 @@ module.exports = {
   permissionsRequired: [PermissionFlagsBits.Administrator],
   botPermissions: [PermissionFlagsBits.Administrator],
 
-  callback: (client, interaction) => {
+  run: (client, interaction) => {
     interaction.reply('ban..');
   },
 };

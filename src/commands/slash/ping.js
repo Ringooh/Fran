@@ -6,7 +6,7 @@ module.exports = {
   // options: Object[],
   // deleted: Boolean,
 
-  callback: (client, interaction) => {
+  run: (client, interaction) => {
     interaction.reply(`Pong! ${client.ws.ping}ms`);
   },
 };

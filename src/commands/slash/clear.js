@@ -4,7 +4,7 @@ const { SlashCommandBuilder, EmbedBuilder, PermissionFlagsBits, ChatInputCommand
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("clear")
-    .setDescription()
+    .setDescription("Clear")
     .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages)
     .setDMPermission(false)
     .addNumberOption(options => options

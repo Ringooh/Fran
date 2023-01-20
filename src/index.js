@@ -1,36 +1,16 @@
+const Discord = require("discord.js");
+const client = new Discord.Client({
+  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_VOICE_STATES]
+});
 // load env file (contains important keys)
 require('dotenv').config();
+
 const fs = require('fs');
 
-const { Client, IntentsBitField, ActivityType } = require('discord.js');
-// const Handler = require('./handlers/commands');
-// const Handle = require('./util/handle');
-const eventHandler = require('./handlers/eventHandler');
-const commandHandler = require('./handlers/handler');
+const Client = require(`${process.cwd()}/struct/Client`);
+const config = require(`${process.cwd()}/config`);
 
-const client = new Client({
-    intents: [
-        IntentsBitField.Flags.Guilds,
-        IntentsBitField.Flags.GuildMembers,
-        IntentsBitField.Flags.GuildMessages,
-        IntentsBitField.Flags.MessageContent
-    ],
-
-    prefix  : 'f!'
-});
-
-client.on('ready', () => {
-    client.user.setPresence({
-        activities: [{
-            type: ActivityType.Competing,
-            name: 'in rank up',
-            status: "online"
-        }]        
-    });
-});
-
-eventHandler(client);
+const client = new Client(config);
 
 
-client.login(process.env.DISCORD_TOKEN);
-
+client.login();
